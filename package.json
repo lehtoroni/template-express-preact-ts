@@ -2,6 +2,10 @@
   "name": "ld-template-client-server",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lehtoroni/template-express-preact-ts.git"
+  },
   "scripts": {
     "devserver": "cd server && npm run dev",
     "devclient": "cd client && npm run dev",

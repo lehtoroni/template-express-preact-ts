@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "directory": "server",
+    "url": "https://github.com/lehtoroni/template-express-preact-ts.git"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc && node dist/index.js",

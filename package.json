@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "devserver": "cd server && npm run dev",
+    "devclient": "cd client && npm run dev",
     "postinstall": "cd client && npm install && cd ../server && npm install && cd .."
   },
   "author": "Roni Lehto",

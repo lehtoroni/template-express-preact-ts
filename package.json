@@ -1,0 +1,10 @@
+{
+  "name": "ld-template-client-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "cd client && npm install && cd ../server && npm install && cd .."
+  },
+  "author": "Roni Lehto",
+  "license": "WTFPL"
+}
